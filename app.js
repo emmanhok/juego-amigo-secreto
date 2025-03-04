@@ -16,7 +16,6 @@ function agregarAmigo() {
         resetearCaja(); // Se resetea la caja para ingresar amigos para siga el mensaje "Escribe un nombre"
         totalAmigos += 1; // Contador del total de amigos que se van agregando sumandose 1 a 1
         document.getElementById('sortear').removeAttribute('disabled'); // Se habilita el boton Sortear que no lo estaba hasta agregar al menos un amigo/a
-        //resetearCaja(); // Funcion para resetear caja 'amigo'
         mostrarListaAmigos(); // Se llama a la funcion para ir mostrando en una lista(<li>) los amigos que va agregando el usuario
         return;
         }
